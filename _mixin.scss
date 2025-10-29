@@ -1,0 +1,18 @@
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin card-hovwer {
+transition: transform $transititn, box-shadow $transititn;
+&:hover {
+    box-shadow: 0 6px 20px rgba(0 ,0 , 0, 0.12);
+}
+
+}
+
+@mixin rtl-text {
+    direction: rtl;
+    text-align: right;
+}

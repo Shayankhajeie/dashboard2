@@ -1,0 +1,22 @@
+.table-section {
+
+    background-color: $white;
+    border-radius: $white;
+    border: 1px solid #e4e4e4;
+    padding: 1rem;
+
+    p {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    table{
+        th{
+            background-color: #f8f9fa;
+            font-weight: 600;
+        }
+        td {
+            vertical-align: middle;
+        }
+    }
+}

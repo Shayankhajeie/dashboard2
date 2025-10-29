@@ -1,0 +1,28 @@
+.sidebar {
+    background-color: $dark-bg;
+    color: $white;
+
+}
+
+ul {
+
+    list-style: none;
+    padding-right: 1rem;
+}
+
+li {
+
+    padding: 0.4rem 0;
+    transition: color $transititn;
+    
+}
+
+&:hover {
+
+    color: $primary;
+}
+
+.fw-bold {
+
+    cursor: default;
+}

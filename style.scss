@@ -1,0 +1,27 @@
+@import 'variables' ;
+@import 'base';
+@import 'mixin';
+@import 'sidebar';
+@import 'header';
+@import 'card';
+@import 'table';
+@import 'valiadation';
+
+body {
+    background-color:  $secondary-bg;
+    font-family: 'vazimatn', sans-serif;
+}
+.bg-dark.text-white {
+    @extend .sidebar;
+
+}
+.bg-primary.bg-dark.text-white-center {
+    @extend .header;
+
+}
+.border.bg-white.rounded.text-center.py-3 {
+    @extend .stats-card;
+}
+.bg-white.border.rounded.p-3 {
+    @extend .table-section;
+}
